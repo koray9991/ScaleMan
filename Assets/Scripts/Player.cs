@@ -136,6 +136,7 @@ public class Player : MonoBehaviour
             moveSpeed = 0;
             anim.SetInteger("choice", 3);
             vCam.gameObject.SetActive(false);
+            GameManager.instance.canvas.SetActive(true);
         }
 
     }
